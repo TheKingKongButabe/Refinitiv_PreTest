@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+
+    .first {
+        flex-grow: 0;     /* do not grow   - initial value: 0 */
+        flex-shrink: 0;   /* do not shrink - initial value: 1 */
+        flex-basis: 300px; /* width/height  - initial value: auto */
+    }
+    .second {
+        flex-grow: 1;     /* do not grow   - initial value: 0 */
+        flex-shrink: 1;   /* do not shrink - initial value: 1 */
+    }
+    .third {
+        flex-grow: 0;     /* do not grow   - initial value: 0 */
+        flex-shrink: 0;   /* do not shrink - initial value: 1 */
+        flex-basis: 200px; /* width/height  - initial value: auto */
+    }
+}
+
+
+

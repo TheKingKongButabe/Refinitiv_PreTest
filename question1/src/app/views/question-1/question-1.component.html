@@ -1,0 +1,16 @@
+<div class="container" [formGroup]="inputForm">
+	<div class="first column">
+		<input type="text" formControlName="number" type="number">
+	</div>
+	<div class="second column">
+		<select  formControlName="type" placeholder="Enter address">
+			<option *ngFor="let item of typeList" [value]="item">
+				{{item}}
+			</option>
+		 </select>
+	</div>
+	<div class="third column">
+		{{isCorrect}}
+	</div>
+
+</div>
